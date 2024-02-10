@@ -1,1 +1,33 @@
-<p>login works!</p>
+<form class="bg-[#0E2232] rounded-xl border border-[#8E43ED] lg:p-8 md:p-8 p-8 shadow-xl  space-y-4 text-left lg:w-[40%] w-full mx-auto  m-6 gap-5">
+    <div>
+        <h2 class="text-3xl text-center text-white font-bold mb-10">
+            Wellcome Back
+        </h2>
+        <div class="flex justify-center items-center gap-8">
+              <div class="p-3 cursor-pointer bg-[#0A1823] rounded shadow-3xl flex justify-center items-center">
+                  <img src="assets/image/google.png" class="w-8" alt="">
+              </div>
+              <div class="p-3 cursor-pointer bg-[#0A1823] rounded shadow-3xl flex justify-center items-center">
+                <img src="assets/image/code.png" class="w-8" alt="">
+            </div>
+           
+        </div>
+        <p class="text-[#5E6A75] font-normal text-center p-5 text-base">or</p>
+    </div>
+    <div  class="space-y-6 ">
+        <div class="space-y-6 ">
+            <input type="text" placeholder="Email address" class="focus:outline-none bg-[#120E19] border p-3 w-full focus:ring-1 rounded font-light focus:font-normal placeholder:text-white text-white">
+            <input type="password" placeholder="Password"  id="password" class="focus:outline-none bg-[#120E19] border p-3 w-full focus:ring-1 rounded font-light focus:font-normal placeholder:text-white text-white ">
+        </div>
+        <div className="flex justify-center mt-6">
+            <button type="button" class=" text-black bg-white w-full px-8 py-3 text-lg rounded-lg justify-center items-center space-x-1 w-fit overflow-hidden relative inline-flex group cursor-pointer font-bold">
+                  Log in
+            </button>
+        </div>
+        <div className="flex justify-center mt-6">
+            <button type="button" class=" text-white border w-full px-8 py-3 text-lg rounded-lg justify-center items-center space-x-1 w-fit overflow-hidden relative inline-flex group cursor-pointer">
+                  Don't have an account?
+            </button>
+        </div>
+    </div>
+</form>

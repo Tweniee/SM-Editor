@@ -1,1 +1,109 @@
-/* You can add global styles to this file, and also import other style files */
+.radialProgressBar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ddd;
+  margin: 20px;
+  float: left;
+}
+.radialProgressBar .overlay {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  background: #202329;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  padding-top: 30%;
+}
+.progress-90 {
+  background-image: -webkit-linear-gradient(left, #028cd5 50%, transparent 50%),
+    -webkit-linear-gradient(144deg, #028cd5 50%, #ddd 50%);
+  background-image: linear-gradient(90deg, #028cd5 50%, transparent 50%),
+    linear-gradient(-54deg, #028cd5 50%, #ddd 50%);
+}
+.rt-container {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .rt-container {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .rt-container {
+    width: 1000px;
+  }
+}
+
+/* ......... second process.......  */
+.streak {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ddd;
+  margin: 20px;
+  float: left;
+}
+.streak .streak-overlay {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  background: #202329;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  padding-top: 20%;
+}
+.progress-streak {
+  background-image: -webkit-linear-gradient(left, #028cd5 50%, transparent 50%),
+    -webkit-linear-gradient(144deg, #028cd5 50%, #ddd 50%);
+  background-image: linear-gradient(90deg, #028cd5 50%, transparent 50%),
+    linear-gradient(-54deg, #028cd5 50%, #ddd 50%);
+}
+.rt-container {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#editor {
+  outline: none;
+  width: 100%;
+  height: 100vh;
+  border: solid 1px rgb(100, 100, 100);
+  border-radius: 11px;
+  font-size: 20px;
+  color: #fff;
+  padding: 20px;
+  background-color: #011727;
+}
+
+#editor-side {
+  outline: none;
+  width: 100%;
+  min-height: 200px;
+  border: solid 1px rgb(100, 100, 100);
+  border-radius: 11px;
+  font-size: 20px;
+  color: #fff;
+  padding: 20px;
+  background-color: #011727;
+}
+
+#editor-side::placeholder {
+  font-size: 18px !important;
+}
